@@ -3,7 +3,7 @@
 	<info>
 		<name>Local Languages</name>
 				<update version="0.0.1">
-			<file name="local_languages.xml" url="https://raw.githubusercontent.com/mushruwum/customshroom/main/local_languages.xml?token=GHSAT0AAAAAACJHCSHEMVXM357OQZSO2MSEZJW32TA" />
+			<file name="local_languages.xml" url="https://raw.githubusercontent.com/mushruwum/customshroom/main/local_languages.xml" />
 		</update>
 
 	</info>
