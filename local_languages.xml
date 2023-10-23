@@ -10,44 +10,44 @@
 
 	<!-- local -->
 	<element name="Thayan" type="Language" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_LANGUAGE_THAYAN">
-		<supports>Local</supports>
+		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by the people of Thay.</p>
 		</description>
 		<setters>
-			<set name="local">true</set>
+			<set name="standard">true</set>
 			<set name="speakers">Thayans</set>
 			<set name="script">Common</set>
 		</setters>
 	</element>
 		<element name="Alzhedo" type="Language" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_LANGUAGE_ALZHEDO">
-		<supports>Local</supports>
+		<supports>Standard</supports>
 		<description>
 			<p>Typically spoken by the people of Calimshan and those of Calishite descent.</p>
 		</description>
 		<setters>
-			<set name="local">true</set>
+			<set name="standard">true</set>
 			<set name="speakers">Calishites</set>
 		</setters>
 	</element>  
 			<element name="Alzhedo (Marching Mountains East)" type="Language" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_LANGUAGE_ALZHEDO_MME">
-		<supports>Local</supports>
+		<supports>Standard</supports>
 		<description>
 			<p>Spoken by people in to the east of the Marching Mountains in Calimshan.</p>
 		</description>
 		<setters>
-			<set name="local">true</set>
+			<set name="standard">true</set>
 			<set name="speakers">Eastern Calishites</set>
 						<set name="script">Common</set>
 		</setters>
 	</element>  
 	<element name="Orc (Sword Coast North)" type="Language" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_LANGUAGE_ORC_SCN">
-		<supports>Local</supports>
+		<supports>Standard</supports>
 		<description>
 			<p>A dialect of the Orcish language native to the Northern Sword Coast.</p>
 		</description>
 		<setters>
-			<set name="local">true</set>
+			<set name="standard">true</set>
 			<set name="speakers">Sword Coast North Orcs</set>
 			<set name="script">Dwarvish</set>
 		</setters>
