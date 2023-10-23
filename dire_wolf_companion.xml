@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+        <name>Dire Wolf</name>
+        <update version="0.0.5">
+            <file name="dire_wolf_companion.xml" url="https://raw.githubusercontent.com/mushruwum/customshroom/main/dire_wolf_companion.xml" />
+        </update>
+	</info>
 	<element name="Dire Wolf" type="Companion" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_COMPANION_DIRE_WOLF">
 		<description />
 		<setters>
