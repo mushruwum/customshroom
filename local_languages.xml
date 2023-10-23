@@ -41,7 +41,7 @@
 						<set name="script">Common</set>
 		</setters>
 	</element>  
-	<element name="Orc (Sword Coast North)" type="Language" source="Player’s Handbook" id="ID_CUSTOMSHROOM_LANGUAGE_ORC_SCN">
+	<element name="Orc (Sword Coast North)" type="Language" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_LANGUAGE_ORC_SCN">
 		<supports>Local</supports>
 		<description>
 			<p>A dialect of the Orcish language native to the Northern Sword Coast.</p>
