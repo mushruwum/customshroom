@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<element name="Dire Wolf" type="Companion" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_COMPANION_DIRE_WOLF">
+		<description />
+		<setters>
+			<set name="strength">17</set>
+			<set name="dexterity">15</set>
+			<set name="constitution">15</set>
+			<set name="intelligence">3</set>
+			<set name="wisdom">12</set>
+			<set name="charisma">7</set>
+			<set name="ac">14 (natural armor)</set>
+			<set name="hp">32 (4d10+7)</set>
+			<set name="speed">40 ft.</set>
+			<set name="languages">—</set>
+			<set name="skills">Perception +3, Stealth +4</set>
+			<set name="type">Beast</set>
+			<set name="size">Large</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">1</set>
+			<set name="traits">ID_CUSTOMSHROOM_COMPANION_TRAIT_DIRE_WOLF_KEEN_HEARING_AND_SMELL,ID_CUSTOMSHROOM_COMPANION_TRAIT_DIRE_WOLF_PACK_TACTICS</set>
+			<set name="actions">ID_CUSTOMSHROOM_COMPANION_ACTION_DIRE_WOLF_BITE</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="14" />
+			<stat name="companion:hp:max" value="32" bonus="base" />
+			<stat name="companion:speed" value="40" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+	<element name="Keen Hearing and Smell" type="Companion Trait" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_COMPANION_TRAIT_DIRE_WOLF_KEEN_HEARING_AND_SMELL">
+		<description>
+			<p>The dire wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+		</description>
+		<sheet>
+			<description>The dire wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+		</sheet>
+	</element>
+	<element name="Pack Tactics" type="Companion Trait" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_COMPANION_TRAIT_DIRE_WOLF_PACK_TACTICS">
+		<description>
+			<p>The dire wolf has advantage on an attack roll against a creature if at least one of the dire wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>
+		</description>
+		<sheet>
+			<description>The dire wolf has advantage on an attack roll against a creature if at least one of the dire wolf's allies is within 5 ft. of the creature and the ally isn't incapacitated.</description>
+		</sheet>
+	</element>
+	<element name="Bite" type="Companion Action" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_COMPANION_ACTION_DIRE_WOLF_BITE">
+		<description>
+			<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</description>
+		</sheet>
+	</element>
+</elements>
