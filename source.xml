@@ -5,9 +5,9 @@
 			<file name="source.xml" url="https://raw.githubusercontent.com/mushruwum/customshroom/main/source.xml" />
 		</update>
 	</info>
-	<element name="Mushroom's Homebrew" type="Source" source="Custom (Mushroom)" id="ID_CUSTOM_SOURCE_CUSTOMSHROOM">
+	<element name="Custom (Mushroom" type="Source" source="Custom (Mushroom)" id="ID_CUSTOM_SOURCE_CUSTOMSHROOM">
 		<description>
-			Custom content from Mushroom.
+			Custom and homebrew content from Mushroom.
 		</description>
 		<setters>
 			<set name="abbreviation">CM</set>
