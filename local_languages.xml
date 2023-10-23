@@ -3,7 +3,7 @@
 	<info>
 		<name>Local Languages</name>
 				<update version="0.0.1">
-			<file name="local_languages.xml" url="https://github.com/mushruwum/customshroom/blob/main/local_languages.xml" />
+			<file name="local_languages.xml" url="https://raw.githubusercontent.com/mushruwum/customshroom/main/local_languages.xml?token=GHSAT0AAAAAACJHCSHEMPKPXVT3ERS3USTGZJW3TAQ" />
 		</update>
 
 	</info>
@@ -30,14 +30,15 @@
 			<set name="speakers">Calishites</set>
 		</setters>
 	</element>  
-			<element name="Alzhedo (Saraji)" type="Language" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_LANGUAGE_ALZHEDO">
+			<element name="Alzhedo (Marching Mountains East)" type="Language" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_LANGUAGE_ALZHEDO_MME">
 		<supports>Local</supports>
 		<description>
-			<p>Typically spoken by the people of Calimshan and those of Calishite descent.</p>
+			<p>Spoken by people in to the east of the Marching Mountains in Calimshan.</p>
 		</description>
 		<setters>
 			<set name="local">true</set>
-			<set name="speakers">Calishites</set>
+			<set name="speakers">Eastern Calishites</set>
+						<set name="script">Common</set>
 		</setters>
 	</element>  
 	<element name="Orc (Sword Coast North)" type="Language" source="Player’s Handbook" id="ID_CUSTOMSHROOM_LANGUAGE_ORC_SCN">
@@ -48,6 +49,7 @@
 		<setters>
 			<set name="local">true</set>
 			<set name="speakers">Sword Coast North Orcs</set>
+			<set name="script">Dwarvish</set>
 		</setters>
 	</element>	
 </elements>
