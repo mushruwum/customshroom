@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+        <name>Pigeon</name>
+        <update version="0.0.1">
+            <file name="pigeon_companion.xml" url="https://raw.githubusercontent.com/mushruwum/customshroom/main/pigeon_companion.xml" />
+        </update>
+	</info>
+	<element name="Pigeon" type="Companion" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_COMPANION_PIGEON">
+		<supports>Familiar</supports>
+		<description />
+		<setters>
+			<set name="strength">2</set>
+			<set name="dexterity">14</set>
+			<set name="constitution">8</set>
+			<set name="intelligence">2</set>
+			<set name="wisdom">9</set>
+			<set name="charisma">7</set>
+			<set name="ac">11</set>
+			<set name="hp">2 (1d4)</set>
+			<set name="speed">10 ft., fly 50 ft.</set>
+			<set name="languages">—</set>
+			<set name="skills">Perception +3</set>
+			<set name="type">Beast</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">unaligned</set>
+			<set name="challenge">0</set>
+			<set name="traits">ID_CUSTOMSHROOM_COMPANION_TRAIT_PIGEON_KEEN_HEARING</set>
+			<set name="actions">ID_CUSTOMSHROOM_COMPANION_ACTION_PIGEON_BEAK</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="11" />
+			<stat name="companion:hp:max" value="2" bonus="base" />
+			<stat name="companion:speed" value="10" bonus="base" />
+			<stat name="companion:speed:fly" value="50" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+		<element name="Keen Hearing" type="Companion Trait" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_COMPANION_TRAIT_PIGEON_KEEN_HEARING">
+		<description>
+			<p>The pigeon has advantage on Wisdom (Perception) checks that rely on hearing.</p>
+		</description>
+		<sheet>
+			<description>The pigeon has advantage on Wisdom (Perception) checks that rely on hearing.</description>
+		</sheet>
+	</element>
+	<element name="Beak" type="Companion Action" source="Custom (Mushroom)" id="ID_CUSTOMSHROOM_COMPANION_ACTION_PIGEON_BEAK">
+		<description>
+			<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 1 piercing damage.</description>
+		</sheet>
+	</element>
